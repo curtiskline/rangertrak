@@ -4,6 +4,10 @@ get '/' do
   erb :index
 end
 
+get '/index' do 
+  erb :index
+end
+
 get '/setup' do
   erb :setup
 end
